@@ -1,1 +1,17 @@
-a
+*** GDScript ***
+
+  ** Resumo **
+	  - Se baseia sobre funções, igual a JS.
+		- Sintaxe é muito parecida com Python.
+		- Baseada em identação, que nem no Python.
+		
+	** Funções Padrões **
+	  - hide(), esconde uma entidade.
+		- show(), mostra uma entidade.
+		- rotate(), roda no próprio eixo a sprite, tens que ser mandado o número em radiano que você quer rodar, ex: 0.3.
+		- move_local_x(), move o personagem no eixo X um número de pixels, tens que mandar o número de pixels que ele irá se mover, ex: 5.
+		- move_local_y(), move o personagem no eixo Y um número de pixels, tens que mandar o número de pixels que ele irá se mover, ex: 5. Números positivos movem para baixo, e negativos para cima.
+		
+	** Functions **
+	  - Criamos uma função com o nome func.
+		"func run():"
