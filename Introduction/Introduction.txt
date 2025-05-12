@@ -14,7 +14,23 @@
 		- move_forward(pixels), move o personagem para frente o número de pixels.
 		- turn_right(degrees), faz o personagem virar para a direita o número do angulo.
 		- turn_left(degrees), faz o personagem virar para a esquerda o número do angulo.
+		- jump(pixelsEixoX, pixelsEixoY), faz o personagem dar um pulo para um determinado ponto definido pelos pixels.
+		- print(), mostra algo no console.
+		- _process(delta), é a função que gera cada frame do loop do jogo, recebe por parâmetro o valor de delta.
 		
 	** Functions **
 	  - Criamos uma função com o nome func.
 		"func run():"
+		
+	** Variáveis **
+	  - Usamos var para declarar uma variável:
+		"var nome = "Martin""
+		- Podemos usar sub-variáveis dentro de uma variável (parecido com objeto):
+		"position.x = 200
+		 position.y = 250"
+		 
+ ** Delta **
+   - Delta faz a experiência de jogo do game ser consistente independente se a máquina da pessoa ser melhor ou pior.
+	 - Garante que as mudanças de frames do game não tornem o game irreal.
+	 - É o tempo passado desde o frame anterior, em segundos, ou seja, uma diferença de tempo.
+	 - Se pegarmos a velocidade angular e multiplicarmos pelo delta, teremos um ângulo.
