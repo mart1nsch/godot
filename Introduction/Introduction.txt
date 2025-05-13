@@ -17,6 +17,7 @@
 		- jump(pixelsEixoX, pixelsEixoY), faz o personagem dar um pulo para um determinado ponto definido pelos pixels.
 		- print(), mostra algo no console.
 		- _process(delta), é a função que gera cada frame do loop do jogo, recebe por parâmetro o valor de delta.
+		- Vector2(tamanhoX, tamanhoY), cria um vetor 2D, ou seja, tamanho no eixo X e Y.
 		
 	** Functions **
 	  - Criamos uma função com o nome func.
@@ -29,8 +30,29 @@
 		"position.x = 200
 		 position.y = 250"
 		 
- ** Delta **
-   - Delta faz a experiência de jogo do game ser consistente independente se a máquina da pessoa ser melhor ou pior.
-	 - Garante que as mudanças de frames do game não tornem o game irreal.
-	 - É o tempo passado desde o frame anterior, em segundos, ou seja, uma diferença de tempo.
-	 - Se pegarmos a velocidade angular e multiplicarmos pelo delta, teremos um ângulo.
+  ** Delta **
+    - Delta faz a experiência de jogo do game ser consistente independente se a máquina da pessoa ser melhor ou pior.
+ 	  - Garante que as mudanças de frames do game não tornem o game irreal.
+ 	  - É o tempo passado desde o frame anterior, em segundos, ou seja, uma diferença de tempo.
+ 	  - Se pegarmos a velocidade angular e multiplicarmos pelo delta, teremos um ângulo.
+ 	 
+  ** Condicionais **
+    - Usamos if assim:
+ 	  "if health > 100:"
+ 	  - Usamos o else assim:
+ 	  "else:"
+    - A palavra "in" serve para verificar se um valor existe em um array:
+    "if cell in units:"
+ 	 
+  ** Loops **
+    - While:
+    "while true:"
+    - For:
+    "for i in range(3):" Roda 3 vezes, mas i começa com o valor 0
+    - For com Array:
+    "for i in numbers:"
+    
+  ** Arrays **
+    - Igual ao JS:
+    "var array = [1, 2, 3]"
+    - array.append(value), inclui um registro no array.
