@@ -18,6 +18,12 @@
 		- print(), mostra algo no console.
 		- _process(delta), é a função que gera cada frame do loop do jogo, recebe por parâmetro o valor de delta.
 		- Vector2(tamanhoX, tamanhoY), cria um vetor 2D, ou seja, tamanho no eixo X e Y.
+    - round(numero), arredonda o numero dado.
+    - get_local_mouse_position(), pega a posição do mouse.
+    - lerp(posicao_atual, posicao_alvo, skew_result), retorna a ponderação entre dois valores.
+    - str(valor), transforma o valor em string.
+    - int(valor), transforma o valor em inteiro.
+    - float(valor), transforma o valor em float.
 		
 	** Functions **
 	  - Criamos uma função com o nome func.
@@ -29,6 +35,8 @@
 		- Podemos usar sub-variáveis dentro de uma variável (parecido com objeto):
 		"position.x = 200
 		 position.y = 250"
+    - Podemos fazer variáveis tipadas, assim garantindo que nossa variável apenas receba o valor esperado e habilitando o compilador a nos fornecer um erro de compilação se estiver tentando usar um tipo diferente:
+    "var nome: String = "Martin""
 		 
   ** Delta **
     - Delta faz a experiência de jogo do game ser consistente independente se a máquina da pessoa ser melhor ou pior.
@@ -56,3 +64,18 @@
     - Igual ao JS:
     "var array = [1, 2, 3]"
     - array.append(value), inclui um registro no array.
+    - array.pop_front(), retira o primeiro registro do array.
+    - array.pop_back(), retira o último registro do array.
+    - array.size(), para ver o tamanho do array.
+    
+  ** Dictionaries **
+    - São os objetos do JS:
+    "var dictionary = {}"
+    - Temos chaves e os valores destas chaves:
+    "var dictionary = {
+         "chave1": "X",
+         "chave2": 2
+     }"
+    - Acessamos uma chave de um dictionary usando colchetes:
+    "dictionary["chave1"]"
+    - Se chamarmos a dictionary num for, ele mostra o nome de cada chave no for.
