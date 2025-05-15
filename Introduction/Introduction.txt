@@ -79,3 +79,21 @@
     - Acessamos uma chave de um dictionary usando colchetes:
     "dictionary["chave1"]"
     - Se chamarmos a dictionary num for, ele mostra o nome de cada chave no for.
+    
+*** Godot ***
+    
+  ** Conceitos chave **
+    - Um game é uma árvore de nodos que você agrupa juntos em cenas.
+    - Podemos escrever esses nodos de uma forma que eles se comuniquem usando sinais.
+    - Os quatro grandes conceitos são: árvore, nodo, cenas e sinais.
+    
+    * Cenas *
+      - Você quebra o seu jogo em cenas reusáveis.
+      - Uma cena pode ser um personagem, uma arma, um menu, etc.
+      
+    * Nodos *
+      - Uma cena é composta por um ou mais nodos.
+      
+    * Sinais *
+      - Nodos emitem sinais quando algum evento acontece.
+      - Mesma ideia do event listener do JS.
